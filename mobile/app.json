@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Proffy Cauzzi",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8257e5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cauzzi.proffycauzzi",
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "package": "com.cauzzi.proffycauzzi",
+      "versionCode": 1
+    },
+    "android": {
+      "package": "com.cauzzi.proffycauzzi"
+    }
+  }
+}
